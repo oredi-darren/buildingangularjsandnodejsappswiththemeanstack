@@ -9,7 +9,10 @@
   "author": "Darren Seet",
   "license": "BSD-2-Clause",
   "dependencies": {
+    "body-parser": "^1.6.5",
     "express": "^4.8.5",
-    "jade": "^1.5.0"
+    "jade": "^1.5.0",
+    "morgan": "^1.2.3",
+    "stylus": "^0.48.1"
   }
 }
