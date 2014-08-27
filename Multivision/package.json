@@ -1,0 +1,15 @@
+{
+  "name": "Multivision",
+  "version": "1.0.0",
+  "description": "Extreme Tech Training",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darren Seet",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "express": "^4.8.5",
+    "jade": "^1.5.0"
+  }
+}
