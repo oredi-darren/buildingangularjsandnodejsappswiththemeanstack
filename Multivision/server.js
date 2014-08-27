@@ -35,19 +35,13 @@ db.once('open', function () {
 
 var messageSchema = mongoose.Schema({message: String});
 var Message = mongoose.model('Messages', messageSchema);
-var mongoMessage;
-Message.findOne({}, function (err, result) {
-   mongoMessage = result.message;
-});
 
 app.use(express.static(__dirname + '/public'));
 app.get('/partials/:partialPath', function (req, res) {
     res.render('partials/' + req.params.partialPath);
 });
 app.get('*', function (req, res) {
-    res.render('index', {
-        mongoMessage: mongoMessage
-    });
+    res.render('index');
 });
 
 var port = 3030;
