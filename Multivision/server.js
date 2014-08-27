@@ -4,7 +4,8 @@
 var express = require('express')
     , stylus = require('stylus')
     , logger = require('morgan')
-    , bodyParser = require('body-parser');
+    , bodyParser = require('body-parser')
+    , mongoose = require('mongoose');
 
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
@@ -24,6 +25,14 @@ app.use(stylus.middleware(
         }
     }
 ));
+
+mongoose.connect('mongodb://localhost/multivision');
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error....'));
+db.once('open', function () {
+   console.log('multivision db opened');
+});
+
 app.use(express.static(__dirname + '/public'));
 app.get('/partials/:partialPath', function (req, res) {
     res.render('partials/' + req.params.partialPath);
