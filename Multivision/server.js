@@ -18,12 +18,11 @@ passport.use(new LocalStrategy(function (username, password, done) {
         User.findOne({'local.username': username }, function (err, user) {
             if (err)
                 return done(err);
-            // if no user is found, return the message
-            if (!user)
-                return done(null, false);
+            if(user && user.authenticate(password)) {
+                return done(null, user);
+            }
 
-            // all is well, return successful user
-            return done(null, user);
+            return done(null, false);
         });
     }
 ));
