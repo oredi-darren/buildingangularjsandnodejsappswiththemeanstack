@@ -43,6 +43,7 @@ Thumbs.db
 **/tasks.xml
 
 /**/node_modules
+/**/vendor
 
 # build directories
 /**/dest
