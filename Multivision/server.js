@@ -9,34 +9,36 @@ var express = require('express')
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 var app = express();
 var config = require('./server/config/config')[env];
+
 require('./server/config/express')(app, config);
 require('./server/config/mongoose')(config);
 
 var User = mongoose.model('User');
-passport.use(new LocalStrategy(
-    function (username, password, done) {
-       User.findOne({local: { username: username }}, function (err, user) {
-           if(user) {
-               return done(null, user);
-           }
+passport.use(new LocalStrategy(function (username, password, done) {
+        User.findOne({'local.username': username }, function (err, user) {
+            if (err)
+                return done(err);
+            // if no user is found, return the message
+            if (!user)
+                return done(null, false);
 
-           return done(null, false);
-       });
+            // all is well, return successful user
+            return done(null, user);
+        });
     }
 ));
 
 passport.serializeUser(function (user, done) {
     if(user) {
-        done(null, user._id);
+        return done(null, user._id);
     }
 });
 
 passport.deserializeUser(function (id, done) {
-    User.findOne({_id: id}, function (err, user) {
+    User.findOne({_id:id}, function (err, user) {
         if(user) {
             return done(null, user);
         }
-
         return done(null, false);
     });
 });

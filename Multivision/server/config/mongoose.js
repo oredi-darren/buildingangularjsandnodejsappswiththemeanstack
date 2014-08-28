@@ -13,7 +13,7 @@ module.exports = function(config) {
         local: {
             firstName: String
             , lastName: String
-            , userName: String
+            , username: String
         }
     });
 
@@ -24,7 +24,7 @@ module.exports = function(config) {
                 local:{
                     firstName: 'Darren'
                     , lastName: 'Seet'
-                    , userName: 'darren'
+                    , username: 'darren'
                 }
             });
 
@@ -32,7 +32,7 @@ module.exports = function(config) {
                 local:{
                     firstName: 'John'
                     , lastName: 'Papa'
-                    , userName: 'john'
+                    , username: 'john'
                 }
             });
 
@@ -40,7 +40,7 @@ module.exports = function(config) {
                 local:{
                     firstName: 'Dan'
                     , lastName: 'Wahlin'
-                    , userName: 'dan'
+                    , username: 'dan'
                 }
             });
         }

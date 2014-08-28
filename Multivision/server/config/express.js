@@ -12,8 +12,13 @@ module.exports = function(app, config) {
     app.set('view engine', 'jade');
     app.use(logger('dev'));
     app.use(cookieParser());
+    app.use(bodyParser.json());
     app.use(bodyParser.urlencoded({ extended: false }));
-    app.use(session({ secret: 'multi vision unicorns' }));
+    app.use(session({
+        secret: 'multi vision unicorns'
+        , saveUninitialized: true
+        , resave: true
+    }));
     app.use(passport.initialize());
     app.use(passport.session());
     app.use(stylus.middleware(
