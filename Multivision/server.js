@@ -1,50 +1,14 @@
 /**
  * Created by darren on 8/28/14.
  */
-var express = require('express')
-    , stylus = require('stylus')
-    , logger = require('morgan')
-    , bodyParser = require('body-parser')
-    , mongoose = require('mongoose');
+var express = require('express');
 
 var env = process.env.NODE_ENV = process.env.NODE_ENV || 'development';
-
-
-
 var app = express();
+var config = require('./server/config/config')[env];
+require('./server/config/express')(app, config);
+require('./server/config/mongoose')(config);
+require('./server/config/routes')(app);
 
-app.set('views', __dirname + '/server/views');
-app.set('view engine', 'jade');
-app.use(logger('dev'));
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(stylus.middleware(
-    {
-        src: __dirname + '/public',
-        compile: function (str, path) {
-            return stylus(str).set('filename', path);
-        }
-    }
-));
-
-mongoose.connect('mongodb://localhost/multivision');
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error....'));
-db.once('open', function () {
-   console.log('multivision db opened');
-});
-
-var messageSchema = mongoose.Schema({message: String});
-var Message = mongoose.model('Messages', messageSchema);
-
-app.use(express.static(__dirname + '/public'));
-app.get('/partials/*', function (req, res) {
-    res.render('../../public/app/' + req.params[0]);
-});
-app.get('*', function (req, res) {
-    res.render('index');
-});
-
-var port = 3030;
-
-app.listen(3030);
-console.log("Listening on port: ", port);
+app.listen(config.port);
+console.log("Listening on port ", config.port, "...");
