@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{Node.js v0.10.25 Core Modules}" />
-    <includedPredefinedLibrary name="Node.js Globals" />
-    <excludedPredefinedLibrary name="HTML" />
-    <excludedPredefinedLibrary name="HTML5 / EcmaScript 5" />
-  </component>
+  <component name="IdProvider" IDEtalkID="BC915065F292CFE8BAF95810F7015ABA" />
   <component name="JsBowerSettings">
     <exe-path>$USER_HOME$/.nvm/v0.10.25/bin/bower</exe-path>
     <config-path />

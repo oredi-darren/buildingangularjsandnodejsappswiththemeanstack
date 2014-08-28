@@ -25,6 +25,7 @@
 *.log
 *.sql
 *.sqlite
+data
 
 # OS generated files #
 ######################
@@ -35,6 +36,11 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# Intellij IDEA #git
+#################
+**/workspace.xml
+**/tasks.xml
 
 /**/node_modules
 
