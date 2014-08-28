@@ -12,8 +12,8 @@ module.exports = function(app, config) {
     app.set('view engine', 'jade');
     app.use(logger('dev'));
     app.use(cookieParser());
-    app.use(bodyParser.json());
-    app.use(bodyParser.urlencoded({ extended: false }));
+    app.use(bodyParser.json());                             // This is important to pass json request body
+    app.use(bodyParser.urlencoded({ extended: false }));    // This is important to pass form post request body
     app.use(session({
         secret: 'multi vision unicorns'
         , saveUninitialized: true
