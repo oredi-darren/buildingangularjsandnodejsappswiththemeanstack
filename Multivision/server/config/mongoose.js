@@ -17,7 +17,8 @@ module.exports = function(config) {
             , username: String
             , salt: String
             , hashed_pwd: String
-        }
+        },
+        roles: [String]
     });
 
     userSchema.methods = {
@@ -41,6 +42,7 @@ module.exports = function(config) {
                     , salt: salt
                     , hashed_pwd: hash
                 }
+                , roles: ['admin']
             });
 
             salt = createSalt();
@@ -53,6 +55,7 @@ module.exports = function(config) {
                     , salt: salt
                     , hashed_pwd: hash
                 }
+                , roles: []
             });
 
             salt = createSalt();

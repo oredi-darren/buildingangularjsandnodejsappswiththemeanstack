@@ -12,4 +12,6 @@
                 b.caret
             ul.dropdown-menu
                 li
-                    a(href="", ng_click="signout()") Sign Out
+                    a(href="/admin/user", ng-show="identity.currentUser.isAdmin()") User Admin
+                li
+                    a(href="", ng-click="signout()") Sign Out
