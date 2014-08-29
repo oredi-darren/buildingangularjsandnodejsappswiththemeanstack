@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d772a58b-56f9-4b37-ab3a-a86971a3c6be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Multivision/public/app/account/profile.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/app.js" afterPath="$PROJECT_DIR$/Multivision/public/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Multivision/public/app/account/mvProfileCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js" afterPath="$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/account/navbar-login.html" afterPath="$PROJECT_DIR$/Multivision/public/app/account/navbar-login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/account/navbar-login.jade" afterPath="$PROJECT_DIR$/Multivision/public/app/account/navbar-login.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" afterPath="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.html" afterPath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" afterPath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" />
     </list>
     <ignored path="buildingangularjsandnodejsappswiththemeanstack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,6 +44,27 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
               <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+              <folding>
+                <marker date="1409288477313" expanded="true" signature="57:474" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="118:190" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="148:190" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="481:1048" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="558:1048" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="581:757" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="772:1048" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="805:901" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="920:967" placeholder="..." />
+                <marker date="1409288477313" expanded="true" signature="986:1048" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scripts.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -59,11 +80,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="profile.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/profile.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38265306" vertical-offset="0" max-vertical-offset="784">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <caret line="20" column="120" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
+              <folding>
+                <marker date="1409288966549" expanded="true" signature="33:1487" placeholder="..." />
+                <marker date="1409288966549" expanded="true" signature="90:1487" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvProfileCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvProfileCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+              <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvSignupCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvSignupCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,16 +118,29 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
               <caret line="19" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1409285077328" expanded="true" signature="33:1507" placeholder="..." />
+                <marker date="1409285077328" expanded="true" signature="89:1507" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvAuth.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.59821427" vertical-offset="550" max-vertical-offset="1125">
+              <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvAuth.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js">
+      <file leaf-file-name="mvUser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="900">
-              <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -118,7 +175,6 @@
         <option value="$PROJECT_DIR$/Multivision/bower.json" />
         <option value="$PROJECT_DIR$/Multivision/server/config/passport.js" />
         <option value="$PROJECT_DIR$/Multivision/server.js" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/admin/mvUserListCtrl.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/admin/user-list.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/account/mvIdentity.js" />
@@ -127,7 +183,6 @@
         <option value="$PROJECT_DIR$/Multivision/karma.conf.js" />
         <option value="$PROJECT_DIR$/Multivision/specs/account/mvUserSpec.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/common/mvNotifier.js" />
-        <option value="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/account/signup.jade" />
         <option value="$PROJECT_DIR$/Multivision/server/config/routes.js" />
         <option value="$PROJECT_DIR$/Multivision/server/utilities/encryption.js" />
@@ -137,8 +192,11 @@
         <option value="$PROJECT_DIR$/Multivision/server/config/auth.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/account/navbar-login.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/app.js" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/account/profile.jade" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvProfileCtrl.js" />
+        <option value="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js" />
       </list>
     </option>
   </component>
@@ -443,12 +501,12 @@
       <workItem from="1409208944588" duration="6545000" />
       <workItem from="1409242532636" duration="27000" />
       <workItem from="1409242634188" duration="6660000" />
-      <workItem from="1409280053601" duration="8907000" />
+      <workItem from="1409280053601" duration="9777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39908000" />
+    <option name="totallyTimeSpent" value="40778000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1922" height="964" extended-state="6" />
@@ -456,7 +514,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27620223" sideWeight="0.4996768" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27620223" sideWeight="0.4996768" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24951519" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -505,13 +563,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="225">
-          <caret line="9" column="71" selection-start-line="9" selection-start-column="71" selection-end-line="9" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvIdentity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="210">
@@ -754,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-          <caret line="14" column="64" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/server/utilities/encryption.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -810,26 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvIdentity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42857143" vertical-offset="0" max-vertical-offset="560">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvSignupCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13392857" vertical-offset="0" max-vertical-offset="560">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -862,15 +889,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
           <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="900">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding />
+          <folding>
+            <marker date="1409288477313" expanded="true" signature="57:474" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="118:190" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="148:190" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="481:1048" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="558:1048" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="581:757" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="772:1048" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="805:901" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="920:967" placeholder="..." />
+            <marker date="1409288477313" expanded="true" signature="986:1048" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -886,14 +916,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="19" column="30" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1409285077328" expanded="true" signature="33:1507" placeholder="..." />
+            <marker date="1409285077328" expanded="true" signature="89:1507" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/profile.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38265306" vertical-offset="0" max-vertical-offset="784">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <caret line="20" column="120" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
+          <folding>
+            <marker date="1409288966549" expanded="true" signature="33:1487" placeholder="..." />
+            <marker date="1409288966549" expanded="true" signature="90:1487" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvSignupCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvProfileCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="2" column="47" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59821427" vertical-offset="550" max-vertical-offset="1125">
+          <caret line="59" column="46" selection-start-line="59" selection-start-column="46" selection-end-line="59" selection-end-column="46" />
           <folding />
         </state>
       </provider>

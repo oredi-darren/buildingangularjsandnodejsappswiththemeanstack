@@ -50,5 +50,20 @@ angular.module('app').factory('mvAuth', function ($http, mvIdentity, $q, mvUser)
 
             return defer.promise;
         }
+        , updateCurrentUser: function (newUserData) {
+            var defer = $q.defer();
+
+            var clone = angular.copy(mvIdentity.currentUser);
+            angular.extend(clone, newUserData);
+
+            clone.$update().then(function () {
+                mvIdentity.currentUser = clone;
+                defer.resolve();
+            }, function (response) {
+                defer.reject(response.data.reason);
+            });
+
+            return defer.promise;
+        }
     }
 });
