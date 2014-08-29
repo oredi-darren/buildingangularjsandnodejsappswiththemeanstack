@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d772a58b-56f9-4b37-ab3a-a86971a3c6be" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailsCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailsCtrl.js" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/app.js" afterPath="$PROJECT_DIR$/Multivision/public/app/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/course-list.html" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/course-list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/main/featured-courses.html" afterPath="$PROJECT_DIR$/Multivision/public/app/main/featured-courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/main/featured-courses.jade" afterPath="$PROJECT_DIR$/Multivision/public/app/main/featured-courses.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/main/new-courses.html" afterPath="$PROJECT_DIR$/Multivision/public/app/main/new-courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/main/new-courses.jade" afterPath="$PROJECT_DIR$/Multivision/public/app/main/new-courses.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.html" afterPath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" afterPath="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/course-details.html" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/course-details.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/controllers/courses.js" afterPath="$PROJECT_DIR$/Multivision/server/controllers/courses.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js" afterPath="$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" afterPath="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Multivision/server/config/routes.js" afterPath="$PROJECT_DIR$/Multivision/server/config/routes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="buildingangularjsandnodejsappswiththemeanstack.iws" />
@@ -38,68 +36,18 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Multivision/public/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="900">
-              <caret line="44" column="46" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvCourseDetailsCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailsCtrl.js">
+      <file leaf-file-name="mvMainCtrl.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/mvMainCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="course-list.jade" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4182156" vertical-offset="0" max-vertical-offset="538">
-              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/main.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="featured-courses.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/featured-courses.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new-courses.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/new-courses.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvCachedCourses.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCachedCourses.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -109,27 +57,77 @@
         <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scripts.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
+      <file leaf-file-name="mvUser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mvCourseListCtrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseListCtrl.js">
+      <file leaf-file-name="mvCourseDetailCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="89" />
+            <state vertical-scroll-proportion="0.24107143" vertical-offset="0" max-vertical-offset="560">
+              <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="930">
+              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mvCachedCourses.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCachedCourses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="course-list.jade" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="courses.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/courses.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+              <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Multivision/server/config/routes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="645">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -148,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Multivision/server/views/partials/navbar-login.jade" />
         <option value="$PROJECT_DIR$/Multivision/server/views/partials/account/navbar-login.jade" />
         <option value="$PROJECT_DIR$/Multivision/server/views/partials/main/main.jade" />
         <option value="$PROJECT_DIR$/Multivision/server/views/includes/scripts.html" />
@@ -177,11 +174,7 @@
         <option value="$PROJECT_DIR$/Multivision/public/app/account/mvAuth.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/account/mvProfileCtrl.js" />
         <option value="$PROJECT_DIR$/Multivision/server/views/index.jade" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
-        <option value="$PROJECT_DIR$/Multivision/server/controllers/courses.js" />
         <option value="$PROJECT_DIR$/Multivision/server/models/Course" />
-        <option value="$PROJECT_DIR$/Multivision/server/config/routes.js" />
         <option value="$PROJECT_DIR$/Multivision/server/config/mongoose.js" />
         <option value="$PROJECT_DIR$/Multivision/server/models/User.js" />
         <option value="$PROJECT_DIR$/Multivision/server/models/Course.js" />
@@ -192,13 +185,18 @@
         <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseListCtrl.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/main/mvMainCtrl.js" />
         <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCachedCourses.js" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/app.js" />
-        <option value="$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailsCtrl.js" />
         <option value="$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/main/new-courses.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/main/featured-courses.jade" />
         <option value="$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade" />
+        <option value="$PROJECT_DIR$/Multivision/server/config/routes.js" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/app.js" />
+        <option value="$PROJECT_DIR$/Multivision/server/controllers/courses.js" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/account/mvUser.js" />
+        <option value="$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailCtrl.js" />
       </list>
     </option>
   </component>
@@ -643,12 +641,12 @@
       <workItem from="1409208944588" duration="6545000" />
       <workItem from="1409242532636" duration="27000" />
       <workItem from="1409242634188" duration="6660000" />
-      <workItem from="1409280053601" duration="18515000" />
+      <workItem from="1409280053601" duration="19860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49516000" />
+    <option name="totallyTimeSpent" value="50861000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="26" width="1922" height="964" extended-state="6" />
@@ -875,14 +873,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="930">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvSignupCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05357143" vertical-offset="0" max-vertical-offset="560">
@@ -903,14 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1125">
           <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -963,26 +945,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/courses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/server/models/User.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
           <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/server/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10714286" vertical-offset="0" max-vertical-offset="630">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1030,62 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/mvMainCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="236" max-vertical-offset="900">
-          <caret line="44" column="46" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCachedCourses.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-          <caret line="12" column="3" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailsCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="19" column="72" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseListCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -1102,9 +1012,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/server/views/includes/scripts.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5089286" vertical-offset="0" max-vertical-offset="560">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/course-details.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/featured-courses.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+        <state vertical-scroll-proportion="0.13392857" vertical-offset="0" max-vertical-offset="560">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding />
         </state>
@@ -1112,16 +1038,88 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/new-courses.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state vertical-scroll-proportion="0.16071428" vertical-offset="0" max-vertical-offset="560">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/courses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/server/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="645">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/course-list.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4182156" vertical-offset="0" max-vertical-offset="538">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
           <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/main/mvMainCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/account/mvUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/server/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="930">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCachedCourses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Multivision/public/app/courses/mvCourseDetailCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24107143" vertical-offset="0" max-vertical-offset="560">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>

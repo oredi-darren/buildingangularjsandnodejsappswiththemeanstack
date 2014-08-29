@@ -42,7 +42,7 @@ angular.module('app').config(function ($routeProvider, $locationProvider) {
         })
         .when('/courses/:id', {
             templateUrl: '/partials/courses/course-details'
-            , controller: 'mvCourseDetailsCtrl'
+            , controller: 'mvCourseDetailCtrl'
         });
 });
 
