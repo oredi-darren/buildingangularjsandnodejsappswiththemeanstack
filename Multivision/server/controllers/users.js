@@ -10,6 +10,7 @@ exports.getUsers = function (req, res) {
 
 exports.createUser = function (req, res, next) {
     var userData = req.body;
+    userData.local.username = userData.local.username.toLowerCase();
     userData.local.salt = encrypt.createSalt();
     userData.local.hashed_password = encrypt.hashPassword(userData.local.salt, userData.local.password);
     User.create(userData, function (err, user) {
