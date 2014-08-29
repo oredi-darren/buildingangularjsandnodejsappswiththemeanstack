@@ -9,6 +9,11 @@ angular.module('app').config(function ($routeProvider, $locationProvider) {
                 return mvAuth.authorizedCurrentUserForRoute('admin');
             }
         }
+        , user: {
+            auth: function (mvAuth) {
+                return mvAuth.authorizedAutehnticatedUserForRoute();
+            }
+        }
     };
 
     $locationProvider.html5Mode(true);
@@ -25,6 +30,11 @@ angular.module('app').config(function ($routeProvider, $locationProvider) {
         .when('/signup', {
             templateUrl: '/partials/account/signup'
             , controller: 'mvSignupCtrl'
+        })
+        .when('/profile', {
+            templateUrl: '/partials/account/profile'
+            , controller: 'mvProfileCtrl'
+            , resolve: routeRoleChecks.user
         });
 });
 

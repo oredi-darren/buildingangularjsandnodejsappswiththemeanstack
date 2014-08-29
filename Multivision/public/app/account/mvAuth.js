@@ -23,15 +23,22 @@ angular.module('app').factory('mvAuth', function ($http, mvIdentity, $q, mvUser)
             });
 
             return defer.promise;
-        },
-        authorizedCurrentUserForRoute: function (role) {
+        }
+        , authorizedCurrentUserForRoute: function (role) {
             if(mvIdentity.isAuthorized(role)) {
                 return true;
             } else {
                 return $q.reject('not authorized');
             }
-        },
-        createUser: function (newUserData) {
+        }
+        , authorizedAutehnticatedUserForRoute: function () {
+            if(mvIdentity.isAuthenticated()) {
+                return true;
+            } else {
+                return $q.reject('not authorized');
+            }
+        }
+        , createUser: function (newUserData) {
             var newUser = new mvUser(newUserData);
             var defer = $q.defer();
             newUser.$save().then(function () {
