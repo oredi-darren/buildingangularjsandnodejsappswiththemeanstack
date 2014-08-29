@@ -29,6 +29,9 @@ module.exports = function(config) {
         authenticate: function (passwordToMatch) {
             return encrypt.hashPassword(this.local.salt, passwordToMatch) === this.local.hashed_password;
         }
+        , hasRole: function (role) {
+            return this.roles.indexOf(role) > -1;
+        }
     }
 
     var User = mongoose.model('User', userSchema);

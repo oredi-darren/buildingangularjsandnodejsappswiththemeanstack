@@ -1,7 +1,7 @@
-angular.module('app').factory('mvProfileCtrl', function ($http, mvNotifier, mvAuth, mvIdentity) {
-    $scope.email = mvIdentity.local.username;
-    $scope.firstName = mvIdentity.local.firstName;
-    $scope.lastName = mvIdentity.local.lastName;
+angular.module('app').controller('mvProfileCtrl', function ($scope, mvNotifier, mvAuth, mvIdentity) {
+    $scope.email = mvIdentity.currentUser.local.username;
+    $scope.firstName = mvIdentity.currentUser.local.firstName;
+    $scope.lastName = mvIdentity.currentUser.local.lastName;
     $scope.update = function () {
         var newUserData = {
             local: {
